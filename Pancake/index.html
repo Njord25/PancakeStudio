@@ -60,8 +60,12 @@
 	<section class="hero" id="hero">
 		<div class="container">
 			<div class="caption">
-				<h1 class="text-uppercase  animated wow fadeInLeft"> ¿ Te imaginas ver una película en el espejo ? </h1>
-				<p class="text-lowercase  animated wow fadeInLeft">Nosotros somos Pancake y buscamos la integración de la tecnología en la sociedad creando productos más económicos, adaptables a la vida cotidiana para el público en general.</p>
+				<div class="intro v-center">
+  					<div>
+  						<p class="typer">Prisma Estudio</p>
+					</div>
+  				</div>
+				
 			</div>
 		</div>
 	</section>
@@ -87,7 +91,7 @@
 								<span>Lentes</span>
 							</li>
 							<li class="video_icon">
-								<span>Proyetores</span>
+								<span>Proyectores</span>
 							</li>
 							<li class="pic_icon">
 								<span>Software</span>
@@ -209,22 +213,16 @@
 
 	<!--  Email Subscription Section  -->
 	<section class="sub_box">
-		<p class="cta_text animated wow fadeInDown">Teléfonos: (+506) 22-22-22-22</p>
-		<p class="cta_text animated wow fadeInDown">Escríbenos</p>
-		<form action="http://pixelhint.us3.list-manage.com/subscribe/post?u=9cf3b8b1cfc597a436b9964d3&amp;id=2449ed590e" metohd="post" class="animated wow fadeIn" data-wow-duration="2s" id="submit_form">
-			<input type="email" id="mc-email" placeholder="Ingresa tú correo"/>
-			<button type="submit" id="mc_submit">
-				<i class="icon"></i>
-			</button>
-		</form>
-		<div class="message" id="error_msg">Ingresa tu correo electronico.</div>
-		<div class="message" id="success_msg"> Gracias!... </div>
-	</section>
-	<!--  End Email Subscription Section  -->
-
-	<!--  Footer Section  -->
-    <footer>
-		<ul class="list-unstyled list-inline app_platform">
+	<form>      
+  		<input name="name" type="text" class="feedback-input" placeholder="Nombre" />
+  		<input name="email" type="text" class="feedback-input" placeholder="Telefono" /> 
+  		<input name="email" type="text" class="feedback-input" placeholder="Correo" />
+  		<textarea name="text" class="feedback-input" placeholder="Escribe Su Mensaje"></textarea>
+  		<input type="submit" value="Enviar"/>
+	</form>
+	
+	<p class="cta_text animated wow fadeInDown">Llamenos (+506) 22-22-22-22</p>
+	<ul class="list-unstyled list-inline app_platform">
 			<li class="animated wow fadeInDown" data-wow-delay="0s">
 				<a href=""><img src="img/android_icon.png" alt="" title=""></a>
 			</li>
@@ -235,7 +233,17 @@
 				<a href=""><img src="img/windows_icon.png" alt="" title=""></a>
 			</li>
 		</ul>
-	</footer> -->
-	<!--  End Footer Section  -->
+		<!-- 
+		<p class="cta_text animated wow fadeInDown">Escríbenos</p>
+		<form action="http://pixelhint.us3.list-manage.com/subscribe/post?u=9cf3b8b1cfc597a436b9964d3&amp;id=2449ed590e" metohd="post" class="animated wow fadeIn" data-wow-duration="2s" id="submit_form">
+			<input type="email" id="mc-email" placeholder="Ingresa tú correo"/>
+			<button type="submit" id="mc_submit">
+				<i class="icon"></i>
+			</button>
+		</form>
+		<div class="message" id="error_msg">Ingresa tu correo electronico.</div>
+		<div class="message" id="success_msg"> Gracias!... </div> -->
+	</section>
+	<!--  End Email Subscription Section  -->
 </body>
 </html>
